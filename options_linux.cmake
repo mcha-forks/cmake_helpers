@@ -15,6 +15,9 @@ target_compile_options_if_exists(common_options
 INTERFACE
     -Wall
     -Wextra
+    -Wno-unused-function
+    -Wno-unused-variable
+    -Wno-unused-but-set-variable
     -Wno-unused-parameter
     -Wno-switch
     -Wno-maybe-uninitialized
